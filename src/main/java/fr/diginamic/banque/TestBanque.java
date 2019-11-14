@@ -9,6 +9,7 @@ public class TestBanque {
 		c1.setSoldeCompte(150);
 		
 		System.out.println(c1.getNumeroDeCompte() + " " + c1.getSoldeCompte());
+		System.out.println(c1.toString());
 	}
 	
 }

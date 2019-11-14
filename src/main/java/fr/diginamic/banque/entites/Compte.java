@@ -10,6 +10,9 @@ public class Compte {
 		this.numeroDeCompte = numeroDeCompte;
 		this.soldeCompte = soldeCompte;
 	}
+	public String toString() {
+		return numeroDeCompte + " " + soldeCompte;
+	}
 
 	//getter
 	public int getNumeroDeCompte() {
