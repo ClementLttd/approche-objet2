@@ -9,13 +9,14 @@ public class Personne {
 	String prenom;
 	AdressePostale adresse;
 
+	//Constructeur
 	public Personne(String nom, String prenom, AdressePostale adresse) {
 		this.nom = nom;
 		this.prenom = prenom;
 		this.adresse = adresse;
 	}
 
-	// construction d'une mÃ©thode  d'instance qui affiche le nom + prenom
+	// construction d'une méthode  d'instance qui affiche le nom + prenom
 	public void afficherIdentite() {
 		System.out.println(prenom + " " + nom.toUpperCase());
 	}

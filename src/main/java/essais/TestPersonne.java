@@ -6,10 +6,12 @@ import entites.AdressePostale;
 public class TestPersonne {
 
 	public static void main(String[] args) {
+		//Instance Adresse Postale
 		AdressePostale a = new AdressePostale(5, " rue de messidor ", 34000, " Montpellier ");
 
 		AdressePostale b = new AdressePostale(8, " rue de la comédie ", 34000, " Montpellier ");
 
+		//Instance Personne
 		Personne a1 = new Personne("Durant", "Pierre", a);
 		a1.afficherIdentite();
 		a1.changerNom("ocdishvj");
