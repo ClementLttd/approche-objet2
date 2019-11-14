@@ -17,7 +17,7 @@ public abstract class Operation {
 		this.montantOperation = montantOperation;
 	}
 
-	//methode string tostring mere
+	//methode string toString mere
 	public String toString() {
 		return getType() + " " + dateOperation + " " + montantOperation;
 	}
