@@ -9,7 +9,8 @@ public class TestOperation {
 		operation[1] = new Credit("13/08/2018", 150);
 		operation[2] = new Debit("21/07/2019", 420);
 		operation[3] = new Credit("30/12/2018", 10);
-
+		
+		//creation d'un solde global
 		double soldeGlobal = 0.0;
 
 		// Boucle sur le tableau operation
