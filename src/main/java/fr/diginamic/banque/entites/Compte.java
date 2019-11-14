@@ -1,24 +1,30 @@
 package fr.diginamic.banque.entites;
 
-public class Compte {
-	 int numeroDeCompte;
-	 int soldeCompte;
+import fr.diginamic.banque.*;
 
-	 //Constructeur
+public class Compte {
+	private int numeroDeCompte;
+	private int soldeCompte;
+
+	// Constructeur
 	public Compte(int numeroDeCompte, int soldeCompte) {
-		
+
 		this.numeroDeCompte = numeroDeCompte;
 		this.soldeCompte = soldeCompte;
 	}
+	// méthode file toString
+
 	public String toString() {
 		return numeroDeCompte + " " + soldeCompte;
+
 	}
 
-	//getter
+	// getter
 	public int getNumeroDeCompte() {
 		return numeroDeCompte;
 	}
-	//setter
+
+	// setter
 	public void setNumeroDeCompte(int numeroDeCompte) {
 		this.numeroDeCompte = numeroDeCompte;
 	}
