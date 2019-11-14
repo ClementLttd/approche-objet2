@@ -9,8 +9,6 @@ public class TestBanque {
 		Compte c1 = new Compte(153, 140);
 		c1.setSoldeCompte(150);
 
-		System.out.println(c1.getNumeroDeCompte() + " " + c1.getSoldeCompte());
-		System.out.println(c1);
 
 		//Création d'un tableau de comptes
 		Compte[] comptes = new Compte[2];
